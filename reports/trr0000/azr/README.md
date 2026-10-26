@@ -53,12 +53,9 @@ setup time:
 
 | Account                           | Purpose
 |-----------------------------------| ------------------------------------|
-| [AD DS Connector account]           | Used to read and write information to 
-Windows Server AD by using Active Directory Domain Services (AD DS). |
-| [ADSync service account]            | Used to run the sync service and access 
-the SQL Server database. |
-| Microsoft Entra Connector account | Used to write information to Microsoft 
-Entra ID. |
+| [AD DS Connector account]           | Used to read and write information to Windows Server AD by using Active Directory Domain Services (AD DS). |
+| [ADSync service account]            | Used to run the sync service and access the SQL Server database. |
+| Microsoft Entra Connector account | Used to write information to Microsoft Entra ID. |
 
 It should be noted that in order to apply the correct permissions to the 
 accounts for PHS functionality, creation of the AD DS Connector account requires 
