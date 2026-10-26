@@ -32,8 +32,8 @@ on-premises environment to the cloud environment, usually through a multi-step
 process. In Entra ID hybrid environments, this privileged agent is [Microsoft 
 Entra Connect Sync] (previously known as [Azure AD Sync]). Entra Connect Sync 
 can be connected to any data repositories that organize its data in a 
-database-like format and that provides standard data-access methods though only 
-Active Directory and Entra ID are relevant to this proceedure set as connected 
+database-like format and that provides standard data-access methods , but this TRR 
+addresses only Active Directory and Entra ID as connected 
 data sources. [^2] The sync service itself consists of two components: the 
 on-premises Microsoft Entra Connect Sync component and the service side in 
 Microsoft Entra ID called Microsoft Entra Connect Sync service [^3].
