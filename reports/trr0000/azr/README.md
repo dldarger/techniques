@@ -43,7 +43,7 @@ Microsoft Entra ID called Microsoft Entra Connect Sync service [^3].
 Password hash sync is the recommended method of hybrid authentication for single 
 forest/single Entra tenant environments and is configured within Microsoft Entra 
 Connect Sync. Though it is possible to install the sync engine directly on an 
-Active Directory DC, best practice documentation recommends that it be installed 
+AD domain controller (DC), Microsoft recommends that it be installed 
 on a separate, domain joined machine. Entra Connect Sync can be installed either 
 via express settings or custom installation, with the express settings option 
 supporting only the single forest/single tenant topology. Regardless of the 
