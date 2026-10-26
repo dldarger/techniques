@@ -74,7 +74,7 @@ define a subset of user passwords that you want to synchronize. After initial
 configuration of the sync engine, the agent will automatically request hashes 
 from the domain controller every two minutes. This sync is one way: when a 
 password is synchronized, it overwrites existing cloud passwords but cloud 
-passwords are not automatically sync with the on-premise domain controller 
+passwords do not automatically sync with the on-premise domain controller 
 (though there are indirect exceptions to this). The synchronization of a 
 password has no impact on a user that is currently signed in—if a password 
 change is synchronized while a user is signed in to a cloud service, that user's 
